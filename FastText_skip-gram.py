@@ -50,6 +50,6 @@ for p in num_features:
         sg=1                              #skip-gram
     )
 
-    fasttext_model.wv.save_word2vec_format('model/fasttext_skip-gram_model_bioinfer_' + str(p) +  '.txt', binary=False)
+    fasttext_model.wv.save_word2vec_format('model/fasttext_skip-gram_model_chemprot_' + str(p) +  '.txt', binary=False)
 
     del fasttext_model

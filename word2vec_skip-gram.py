@@ -50,6 +50,6 @@ for p in num_features:
         min_count=min_word_count, 
         window=context_size)
 
-    word2vec_model.wv.save_word2vec_format('model/word2vec_skip-gram_model_bioinfer_' + str(p) +  '.txt', binary=False)
+    word2vec_model.wv.save_word2vec_format('model/word2vec_skip-gram_model_chemprot_' + str(p) +  '.txt', binary=False)
 
     del word2vec_model

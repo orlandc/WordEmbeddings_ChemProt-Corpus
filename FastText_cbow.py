@@ -50,6 +50,6 @@ for p in num_features:
         sg=0                              #cbow
     )
 
-    fasttext_model.wv.save_word2vec_format('model/fasttext_cbow_model_bioinfer_' + str(p) +  '.txt', binary=False)
+    fasttext_model.wv.save_word2vec_format('model/fasttext_cbow_model_chemprot_' + str(p) +  '.txt', binary=False)
 
     del fasttext_model
